@@ -1,5 +1,6 @@
 
 Commands to push changes online
 
+0. git add ".\git instructions.txt"
 1. git commit -m "put commit message here: what are these changes about?"
 2. git push -u origin main
