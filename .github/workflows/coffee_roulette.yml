@@ -2,7 +2,7 @@ name: Coffee Roulette
 
 on:
   schedule:
-    - cron: '0 14 * * 1'  # Every Monday at 2pm UTC
+     - cron: '0 14 * * 1/2'  # Every other Monday at 2pm UTC
   workflow_dispatch:       # Also lets you run it manually anytime
 
 jobs:
